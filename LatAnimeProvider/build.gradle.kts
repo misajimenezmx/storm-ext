@@ -1,5 +1,5 @@
 // use an integer for version numbers
-version = 3
+version = 2
 
 
 cloudstream {
@@ -7,7 +7,7 @@ cloudstream {
     // All of these properties are optional, you can safely remove them
 
     //description = "Lorem Ipsum"
-    authors = listOf("Stormunblessed")
+    authors = listOf("misajimenezmx")
 
     /**
      * Status int as the following:
@@ -16,11 +16,11 @@ cloudstream {
      * 2: Slow
      * 3: Beta only
      * */
-    status = 0 // will be 3 if unspecified
+    status = 1 // will be 3 if unspecified
     tvTypes = listOf(
-        "TvSeries",
-        "Movie",
+        "Anime",
+        "OVA",
     )
 
-    iconUrl = "https://www.google.com/s2/favicons?domain=seriesflix.video&sz=%size%"
+    iconUrl = "https://latanime.org/public/img/logito.png"
 }
